@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+body {
+    background-color: #1c1c1c;
+    color: rgb(202, 202, 202);
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    display: none;
+}
+
+
+label {
+    display: inline-flex;
+    width: 100vw;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: black;
+}
+
+audio {
+    text-align: center;
+}
+
+#buttons{
+    text-align: center;
+}
+
+button {
+    width: 30%;
+}
+
+.reproductor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;    
+}
